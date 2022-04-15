@@ -56,7 +56,13 @@
 
 using namespace pi;
 using namespace std;
+
+#ifndef __APPLE__
+
 using namespace std::tr1;
+
+#endif
+
 
 static vtkIO vio;
 

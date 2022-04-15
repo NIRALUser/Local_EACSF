@@ -62,7 +62,7 @@ if(NOT ( DEFINED "USE_SYSTEM_${extProjName}" AND "${USE_SYSTEM_${extProjName}}" 
       -DVXL_WRAP_PYTHON:BOOL=OFF
       -DModule_VXLReview:BOOL=ON
       -DModule_VXLVtkGlue:BOOL=ON
-      -DModule_VXLIODCMTK:BOOL=ON
+      -DModule_VXLIODCMTK:BOOL=OFF
       -DModule_MGHIO:BOOL=ON
       -DV_BUILD_DEFAULT_MODULES:BOOL=ON
       -DKWSYS_USE_MD5:BOOL=ON # Required by SlicerExecutionModel
